@@ -1,0 +1,298 @@
+@import "faq.css";
+@import "global.css";
+@import "normalize.css.css";
+
+* {
+    box-sizing: border-box;
+}
+
+.quote {
+    margin: 0;
+}
+
+.atribute {
+    padding-left: 40px;
+    
+}
+.atribute:not(:last-child) {
+    padding-bottom: 20px;
+}
+.date {
+    width: 148px;
+}
+.radio-button {
+    margin-right: 10px;
+}
+
+
+.main-banner {
+    position: relative;
+    height: 823px;
+}
+
+.main-banner:after {
+    content: url(./img/vr-banner.png);
+    position: absolute;
+    right: 5px;
+    top: 64px;
+}
+
+.main-banner__title {
+    font-size: 150px;
+    font-weight: 900;
+    line-height: 150px;
+    letter-spacing: -0.1em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.main-banner__description {
+    margin: 0;
+    padding-left: 6.25rem;
+}
+
+.page__title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+/* .block-halls {
+    padding-top: 100px;
+} */
+
+.block-halls__halls {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.img-halls {
+    position: relative;
+    text-align: center;
+}
+
+.img-halls:not(:last-child) {
+    margin-bottom: 60px;
+}
+
+.img {
+    width: 100%;
+}
+
+.block-halls__text-img {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.block-halls__link {
+    text-decoration: none;
+}
+
+.block-halls__item-vibes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/80s-vibes.png);
+    background-size: cover;
+    width: 580px;
+    height: 349px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.block-halls__item-starwars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/star-wars.png);
+    background-size: cover;
+    width: 580px;
+    height: 349px;
+}
+
+.block-halls__item-wildwest {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/wild-west.png);
+    background-size: cover;
+    width: 580px;
+    height: 349px;
+    margin-right: 20px;
+}
+
+.block-halls__item-neon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/neon-style.png);
+    background-size: cover;
+    width: 580px;
+    height: 349px;
+}
+
+.about-us__wrapper-block {
+    display: flex;
+}
+
+.about-us__block1 {
+    margin-right: 80px;
+}
+
+.about-us__block2 {
+    width: 500px;
+}
+
+.about-us__text-about {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+}
+
+.about-us__text-about:first-child {
+    margin-bottom: 41px;
+}
+
+.about-us__text-about:last-of-type {
+    margin-bottom: 48px;
+}
+
+.quote__quote-text {
+    font-size: 2.75rem;
+    font-weight: 400;
+    line-height: 3.125rem;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.quote__wrapper-quote {
+    display: flex;
+    text-transform: uppercase;
+    padding-bottom: 42px;
+}
+
+.quote__text {
+    margin-top: 10px;
+    margin-left: 9px;
+}
+
+.quote__wrapper-quote:before {
+    content: '“';
+    display: inline-block;
+    color: #6C0287;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.quote__quote-text:before {
+    content: '';
+    display: inline-block;
+    color: #6C0287;
+    font-weight: 900;
+}
+
+.quote__quote-text:after {
+    content: '”';
+    display: inline-block;
+    color: #6C0287;
+    font-weight: 900;
+}
+
+.quote__creator {
+    display: flex;
+    justify-content: end;
+}
+
+.quote__creator-about-creator {
+    width: 279.28px;
+    align-self: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    font-style: normal;
+}
+
+.footer__tech {
+    list-style: none;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 0;
+    margin-bottom: 35px;
+}
+
+.footer__tech-icon {
+    padding-left: 60px;
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.footer__tech-icon:first-child {
+    margin-bottom: 35px;
+}
+
+.icon-address {  
+    background-image: url(./img/location.svg);
+}
+.icon-phone {    
+    background-image: url(./img/phone-call.svg);
+    margin-bottom: 10px;
+}
+.icon-mail {
+    background-image: url(./img/envelope.svg);
+}
+
+.footer__tech-address,
+.footer__tech-phone-number,
+.footer__tech-mail {
+    margin: 0;
+    width: 415.1904px;
+    text-decoration: none;
+}
+
+.footer__tech-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer__social {
+    display: flex;
+    width: 280px;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer__social-link {
+    width: 50px;
+    height: 50px;
+}
+
+.quote__creator-img {
+    margin-right: 29.72px;
+}
