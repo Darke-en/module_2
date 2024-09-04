@@ -24,6 +24,50 @@
     margin-right: 10px;
 }
 
+.header {}
+
+.container-header {
+    max-width: 1240px;
+    padding: 30px 30px 0 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__items {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__item {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.header__call {
+    border: 3px solid #CD06FF;
+    width: 280px;
+    height: 55px;
+    align-self: flex-end;
+    border-radius: 10px;
+    background: transparent;
+    text-align: center;
+    align-content: center;
+}
+
+.header__number {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
 
 .main-banner {
     position: relative;
@@ -35,6 +79,77 @@
     position: absolute;
     right: 5px;
     top: 64px;
+}
+
+.main-banner__down {
+    background: transparent;
+    border: none;
+    padding: 0;
+    position: absolute;
+    left: 45.5%;
+    bottom: 90px;
+    z-index: 1;
+}
+
+.main-banner__info {
+    display: flex;
+    gap: 40px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 34.5px;
+    text-align: center;
+    padding-top: 30px;
+    width: 399px;
+    margin-bottom: 150px;
+}
+
+.main-banner__info-left {
+    display: flex;
+    flex-direction: column;
+    width: 193px;
+}
+
+.main-banner__booking {
+    display: flex;
+    width: 374px;
+    height: 80px;
+    border-radius: 10px;
+    background: #6C0287;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 20px 0px rgb(108 2 135);
+}
+
+.main-banner__button-text {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.main-banner__info-right {
+    display: flex;
+    flex-direction: column;
+    max-width: 165px;
+    align-self: flex-end;
+    align-items: center;
+}
+
+.main-banner__number {
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 141.02px;
+    color: #CD06FF;
+}
+.main-banner__new {
+    font-size: 65px;
+    font-weight: 900;
+    line-height: 105.76px;
+    color: #CD06FF;
+    text-transform: uppercase;
 }
 
 .main-banner__title {
@@ -49,6 +164,15 @@
 .main-banner__description {
     margin: 0;
     padding-left: 6.25rem;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.rest__items-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 39px 20px;
 }
 
 .page__title {
@@ -58,8 +182,9 @@
     letter-spacing: 0em;
     text-align: center;
     text-transform: uppercase;
-    margin: 0;
+    margin: auto;
     margin-bottom: 50px;
+    width: 882px;
 }
 
 /* .block-halls {
@@ -232,6 +357,51 @@
     font-style: normal;
 }
 
+.feedback__items {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.feedback__item {
+    display: flex;
+    margin: 0;
+}
+
+.feedback__img {
+    min-width: 280px;
+}
+
+.feedback__name {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+}
+
+.feedback__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.feedback__text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 52px 0 0 20px;
+}
+
+.footer {
+    background: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%)
+}
+
+.footer__items {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 156px;
+}
+
 .footer__tech {
     list-style: none;
     font-style: normal;
@@ -270,7 +440,7 @@
 .footer__tech-phone-number,
 .footer__tech-mail {
     margin: 0;
-    width: 415.1904px;
+    /* width: 415.1904px; */
     text-decoration: none;
 }
 
@@ -295,4 +465,20 @@
 
 .quote__creator-img {
     margin-right: 29.72px;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: right;
+}
+
+.container__footer {
+    padding-bottom: 10px;
 }
