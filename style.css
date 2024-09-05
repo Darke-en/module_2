@@ -71,14 +71,14 @@
 
 .main-banner {
     position: relative;
-    height: 823px;
+    height: 932px;
 }
 
 .main-banner:after {
     content: url(./img/vr-banner.png);
     position: absolute;
     right: 5px;
-    top: 64px;
+    top: 120px;
 }
 
 .main-banner__down {
@@ -194,9 +194,7 @@
 .block-halls__halls {
     display: flex;
     flex-wrap: wrap;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    gap: 20px;
 }
 
 .img-halls {
@@ -234,8 +232,6 @@
     background-size: cover;
     width: 580px;
     height: 349px;
-    margin-right: 20px;
-    margin-bottom: 20px;
 }
 
 .block-halls__item-starwars {
@@ -256,7 +252,6 @@
     background-size: cover;
     width: 580px;
     height: 349px;
-    margin-right: 20px;
 }
 
 .block-halls__item-neon {
@@ -273,8 +268,72 @@
     display: flex;
 }
 
+.rest__item-text1 {
+    width: 380px;
+    height: 228px;
+    background-image: url(img/1.png);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    padding: 166px 40px 0 40px;
+
+}
+.rest__item-text2 {
+    width: 380px;
+    height: 228px;
+    background-image: url(img/2.png);
+    padding: 166px 40px 0 40px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+}
+.rest__item-text3 {
+    width: 380px;
+    height: 228px;
+    background-image: url(img/3.png);
+    padding: 166px 40px 0 40px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+}
+.rest__item-text4 {
+    width: 380px;
+    height: 228px;
+    background-image: url(img/4.png);
+    padding: 166px 40px 0 40px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+}
+.rest__item-text5 {
+    width: 380px;
+    height: 228px;
+    background-image: url(img/5.png);
+    padding: 166px 40px 0 40px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+}
+.rest__item-text6 {
+    width: 380px;
+    height: 228px;
+    background-image: url(img/6.png);
+    padding: 166px 40px 0 40px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+}
+
 .about-us__block1 {
     margin-right: 80px;
+    background-image: url(img/photocollage.png);
+    width: 600px;
 }
 
 .about-us__block2 {
