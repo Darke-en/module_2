@@ -74,11 +74,6 @@
                                     Новый формат игр и отдыха
                                 </p>
                                 <button class="main-banner__down">
-                                    <svg width="97" height="97" viewBox="0 0 97 97" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <circle cx="48.5" cy="48.5" r="48" stroke="white"/>
-                                        <rect x="34.4255" y="43.9162" width="1.82001" height="20.0201" transform="rotate(-44.9975 34.4255 43.9162)" fill="white"/>
-                                        <rect x="48.5807" y="58.0737" width="1.82001" height="20.0201" transform="rotate(-134.997 48.5807 58.0737)" fill="white"/>
-                                    </svg>
                                 </button>    
                                 <div class="main-banner__info">
                                     <div class="main-banner__info-left">
@@ -415,26 +410,36 @@
                                         <p class="faq__text">
                                             Можно ли забронировать комнату онлайн?
                                         </p>
+                                        <button class="faq__open faq__open-purple">
+                                        </button>
                                     </li>
                                     <li class="faq__element">
                                         <p class="faq__text">
                                             Могут ли мне вернуть деньги за бронь?
                                         </p>
+                                        <button class="faq__open">
+                                        </button>
                                     </li>
                                     <li class="faq__element">
                                         <p class="faq__text">
                                             Какая комната самая популярная?
                                         </p>
+                                        <button class="faq__open faq__open-purple">
+                                        </button>
                                     </li>
                                     <li class="faq__element">
                                         <p class="faq__text">
                                             Как получить VIP карту?
                                         </p>
+                                        <button class="faq__open">
+                                        </button>
                                     </li>
                                     <li class="faq__element">
                                         <p class="faq__text">
                                             Можно ли прийти со своей едой?
                                         </p>
+                                        <button class="faq__open faq__open-purple">
+                                        </button>
                                     </li>
                                 </ul>
                         </section>
@@ -515,6 +520,14 @@
                         </div>
                     </div>
                 </footer>
+
+                <script>
+                    document.addEventListener('click', event => {
+                        if (event.target.matches('button')) {
+                            event.target.focus()
+                        }
+                    })
+                </script>
         </body>
 </html>
 

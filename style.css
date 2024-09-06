@@ -58,6 +58,17 @@
     background: transparent;
     text-align: center;
     align-content: center;
+    &:hover {
+        border-color: 3px solid #6C0287;
+        background-color: #6C0287;
+    }
+    &:active {
+        border: 1px solid #000000;
+        background-color: #640AA3;
+    }
+    &:focus {
+        background-color: #6C0287;
+    }
 }
 
 .header__number {
@@ -82,13 +93,26 @@
 }
 
 .main-banner__down {
-    background: transparent;
-    border: none;
-    padding: 0;
     position: absolute;
     left: 45.35%;
     bottom: 140px;
     z-index: 1;
+    content: '';
+    display: inline-block;
+    width: 97px;
+    height: 97px;
+    background-image: url(./img/down.svg);
+    background-color: transparent;
+    border: none;
+    &:hover {
+        background-image: url(./img/down-hover.svg);
+    }
+    &:active {
+        background-image: url(./img/down-active.svg);
+    }
+    &:focus {
+        border: 1px solid #CD06FF
+    }
 }
 
 .main-banner__info {
@@ -121,6 +145,16 @@
     justify-content: center;
     align-items: center;
     box-shadow: 0px 0px 20px 0px rgb(108 2 135);
+
+    &:hover {
+        background-color: #840AA3;
+    }
+    &:active {
+        background-color: #640AA3;
+    }
+    &:focus {
+        background-color: #840AA3;
+    }
 }
 
 .main-banner__button-text {

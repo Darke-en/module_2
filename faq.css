@@ -20,20 +20,36 @@
     background-color: #440F51;
 }
 
-.faq__element:nth-of-type(even):after {
+.faq__open {
     content: '';
     display: inline-block;
     width: 2.875rem;
     height: 2.875rem;
-    background-image: url(./img/open.svg);
+    border: none;
+    background-color: transparent;
+    background-image: url(img/open.svg);
+    &:hover {
+        background-image: url(img/open-hover.svg);
+    }
+    &:active {
+        background-image: url(img/open-active.svg);
+    }
 }
 
-.faq__element:nth-of-type(odd):after {
+.faq__open-purple {
     content: '';
     display: inline-block;
     width: 2.875rem;
     height: 2.875rem;
-    background-image: url(./img/open-purple.svg);
+    background-image: url(img/open-purple.svg);
+    border: none;
+    background-color: transparent;
+    &:hover {
+        background-image: url(img/open-purple-hover.svg);
+    }
+    &:active {
+        background-image: url(img/open-purple-active.svg);
+    }
 }
 
 .faq__list {
