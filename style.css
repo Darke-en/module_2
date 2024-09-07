@@ -311,7 +311,11 @@
     line-height: 28px;
     text-align: left;
     padding: 166px 40px 0 40px;
-
+    transition: 1s;
+    &:hover {
+        box-shadow: 0px 0px 10px 1px rgba(255, 255, 255, 0.5);
+        transform: scale(1.1);
+    }
 }
 .rest__item-text2 {
     width: 380px;
@@ -322,6 +326,11 @@
     font-weight: 700;
     line-height: 28px;
     text-align: left;
+    transition: 1s;
+    &:hover {
+        box-shadow: 0px 0px 10px 1px rgba(255, 255, 255, 0.5);
+        transform: scale(1.1);
+    }
 }
 .rest__item-text3 {
     width: 380px;
@@ -332,6 +341,11 @@
     font-weight: 700;
     line-height: 28px;
     text-align: left;
+    transition: 1s;
+    &:hover {
+        box-shadow: 0px 0px 10px 1px rgba(255, 255, 255, 0.5);
+        transform: scale(1.1);
+    }
 }
 .rest__item-text4 {
     width: 380px;
@@ -342,6 +356,11 @@
     font-weight: 700;
     line-height: 28px;
     text-align: left;
+    transition: 1s;
+    &:hover {
+        box-shadow: 0px 0px 10px 1px rgba(255, 255, 255, 0.5);
+        transform: scale(1.1);
+    }
 }
 .rest__item-text5 {
     width: 380px;
@@ -352,6 +371,11 @@
     font-weight: 700;
     line-height: 28px;
     text-align: left;
+    transition: 1s;
+    &:hover {
+        box-shadow: 0px 0px 10px 1px rgba(255, 255, 255, 0.5);
+        transform: scale(1.1);
+    }
 }
 .rest__item-text6 {
     width: 380px;
@@ -362,6 +386,11 @@
     font-weight: 700;
     line-height: 28px;
     text-align: left;
+    transition: 1s;
+    &:hover {
+        box-shadow: 0px 0px 10px 1px rgba(255, 255, 255, 0.5);
+        transform: scale(1.1);
+    }
 }
 
 .about-us__block1 {
